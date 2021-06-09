@@ -25,34 +25,38 @@ namespace RazorPagesMonster6.models
                 context.Monster.AddRange(
                     new Monster
                     {
-                        MonsterName = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
-                        Price = 7.99M
+                        MonsterName = "Sharp Edge",
+                        ReleaseDate = DateTime.Parse("0050-1-1"),
+                        Genre = "Accidental Danger",
+                        Price = 4.00M,
+                        Rating = "A"
                     },
 
                     new Monster
                     {
-                        MonsterName = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
-                        Price = 8.99M
+                        MonsterName = "Large Tree",
+                        ReleaseDate = DateTime.Parse("0001-1-1"),
+                        Genre = "Beauty in Place",
+                        Price = 87000M,
+                        Rating = "A"
                     },
 
                     new Monster
                     {
-                        MonsterName = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
-                        Price = 9.99M
+                        MonsterName = "Flap Jacks",
+                        ReleaseDate = DateTime.Parse("1600-1-1"),
+                        Genre = "Non-violent",
+                        Price = 5.99M,
+                        Rating = "A"
                     },
 
                     new Monster
                     {
-                        MonsterName = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
-                        Price = 3.99M
+                        MonsterName = "Party Face",
+                        ReleaseDate = DateTime.Parse("1970-3-28"),
+                        Genre = "Curiosities",
+                        Price = 14.00M,
+                        Rating = "A"
                     }
                 );
                 context.SaveChanges();
